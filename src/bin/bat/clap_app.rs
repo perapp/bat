@@ -36,7 +36,7 @@ pub fn build_app(interactive_output: bool) -> Command {
         .disable_version_flag(true)
         .max_term_width(100)
         .about("A cat(1) clone with wings.")
-        .long_about("A cat(1) clone with syntax highlighting and Git integration.")
+        .long_about("A cat(1) clone with syntax highlighting and Git integration. Forked by perapp.")
         .arg(
             Arg::new("FILE")
                 .help("File(s) to print / concatenate. Use '-' for standard input.")

@@ -1,5 +1,5 @@
 use bat::style::StyleComponentList;
-use clap::{crate_name, crate_version, value_parser, Arg, ArgAction, ColorChoice, Command};
+use clap::{crate_version, value_parser, Arg, ArgAction, ColorChoice, Command};
 use once_cell::sync::Lazy;
 use std::env;
 use std::path::{Path, PathBuf};
@@ -25,7 +25,7 @@ pub fn build_app(interactive_output: bool) -> Command {
         ColorChoice::Never
     };
 
-    let mut app = Command::new(crate_name!())
+    let mut app = Command::new("forkedbat")
         .version(VERSION.as_str())
         .color(color_when)
         .hide_possible_values(true)

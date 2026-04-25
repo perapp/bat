@@ -1592,7 +1592,7 @@ fn version_works_with_invalid_config() {
         .arg("--version")
         .assert()
         .success()
-        .stdout(predicate::str::contains("bat "));
+        .stdout(predicate::str::contains("forkedbat "));
 
     // -V should also work
     bat_with_config()
@@ -1600,7 +1600,7 @@ fn version_works_with_invalid_config() {
         .arg("-V")
         .assert()
         .success()
-        .stdout(predicate::str::contains("bat "));
+        .stdout(predicate::str::contains("forkedbat "));
 }
 
 #[test]

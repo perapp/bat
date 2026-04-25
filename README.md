@@ -19,19 +19,9 @@
   [<a href="doc/README-ru.md">Русский</a>]
 </p>
 
-### Sponsors
+### Fork 
 
-A special *thank you* goes to our biggest <a href="doc/sponsors.md">sponsors</a>:<br>
-
-<p>
-<a href="https://www.warp.dev/bat">
-  <img src="doc/sponsors/warp-logo.png" width="200" alt="Warp">
-  <br>
-  <strong>Warp, the intelligent terminal</strong>
-  <br>
-  <sub>Available on MacOS, Linux, Windows</sub>
-</a>
-</p>
+This is a silly fork of `bat` for some fork demo purposes.
 
 ### Syntax highlighting
 
